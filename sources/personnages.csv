@@ -1,0 +1,11 @@
+Nom,Groupe,Intrigues,Relations,Influence,Secrets
+Baron Alaric,Noblesse,Complot du Roi;Dette de Jeu;Héritage Caché,Comtesse Elara|Amant|Fort;Capitaine Thorne|Rival|Moyen;Servante Lise|Maitre|Faible,9,8
+Comtesse Elara,Noblesse,Complot du Roi;Secret du Sanctuaire,Baron Alaric|Amant|Fort;Mage Valerius|Confidente|Moyen,8,9
+Capitaine Thorne,Milice,Dette de Jeu;Menace Frontalière,Baron Alaric|Rival|Moyen;Soldat Garret|Superieur|Fort,6,4
+Mage Valerius,Cercle Magique,Secret du Sanctuaire;Rituel Interdit;Héritage Caché,Comtesse Elara|Conseiller|Moyen;Apprenti Milo|Maitre|Fort,7,10
+Servante Lise,Peuple,Héritage Caché,Baron Alaric|Serviteur|Faible;Soldat Garret|Soeur|Fort,2,7
+Soldat Garret,Milice,Menace Frontalière,Capitaine Thorne|Subordonne|Fort;Servante Lise|Frere|Fort,3,2
+Apprenti Milo,Cercle Magique,Rituel Interdit,Mage Valerius|Eleve|Fort,4,5
+Ermite Vieux-Jean,Exilés,,,1,9
+Marchand Silas,Bourgeoisie,Dette de Jeu,Baron Alaric|Creancier|Moyen;Capitaine Thorne|Creancier|Faible,5,3
+Vagabond Inconnu,Exilés,,,0,1

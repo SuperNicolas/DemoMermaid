@@ -1,0 +1,192 @@
+[
+    {
+        "name": "Baron Alaric",
+        "group": "Noblesse",
+        "intrigues": [
+            "Complot du Roi",
+            "Dette de Jeu",
+            "Héritage Caché"
+        ],
+        "relations": [
+            {
+                "target": "Comtesse Elara",
+                "type": "Amant",
+                "strength": "Fort"
+            },
+            {
+                "target": "Capitaine Thorne",
+                "type": "Rival",
+                "strength": "Moyen"
+            },
+            {
+                "target": "Servante Lise",
+                "type": "Maitre",
+                "strength": "Faible"
+            }
+        ],
+        "influence": 9,
+        "secrets": 8
+    },
+    {
+        "name": "Comtesse Elara",
+        "group": "Noblesse",
+        "intrigues": [
+            "Complot du Roi",
+            "Secret du Sanctuaire"
+        ],
+        "relations": [
+            {
+                "target": "Baron Alaric",
+                "type": "Amant",
+                "strength": "Fort"
+            },
+            {
+                "target": "Mage Valerius",
+                "type": "Confidente",
+                "strength": "Moyen"
+            }
+        ],
+        "influence": 8,
+        "secrets": 9
+    },
+    {
+        "name": "Capitaine Thorne",
+        "group": "Milice",
+        "intrigues": [
+            "Dette de Jeu",
+            "Menace Frontalière"
+        ],
+        "relations": [
+            {
+                "target": "Baron Alaric",
+                "type": "Rival",
+                "strength": "Moyen"
+            },
+            {
+                "target": "Soldat Garret",
+                "type": "Superieur",
+                "strength": "Fort"
+            }
+        ],
+        "influence": 6,
+        "secrets": 4
+    },
+    {
+        "name": "Mage Valerius",
+        "group": "Cercle Magique",
+        "intrigues": [
+            "Secret du Sanctuaire",
+            "Rituel Interdit",
+            "Héritage Caché"
+        ],
+        "relations": [
+            {
+                "target": "Comtesse Elara",
+                "type": "Conseiller",
+                "strength": "Moyen"
+            },
+            {
+                "target": "Apprenti Milo",
+                "type": "Maitre",
+                "strength": "Fort"
+            }
+        ],
+        "influence": 7,
+        "secrets": 10
+    },
+    {
+        "name": "Servante Lise",
+        "group": "Peuple",
+        "intrigues": [
+            "Héritage Caché"
+        ],
+        "relations": [
+            {
+                "target": "Baron Alaric",
+                "type": "Serviteur",
+                "strength": "Faible"
+            },
+            {
+                "target": "Soldat Garret",
+                "type": "Soeur",
+                "strength": "Fort"
+            }
+        ],
+        "influence": 2,
+        "secrets": 7
+    },
+    {
+        "name": "Soldat Garret",
+        "group": "Milice",
+        "intrigues": [
+            "Menace Frontalière"
+        ],
+        "relations": [
+            {
+                "target": "Capitaine Thorne",
+                "type": "Subordonne",
+                "strength": "Fort"
+            },
+            {
+                "target": "Servante Lise",
+                "type": "Frere",
+                "strength": "Fort"
+            }
+        ],
+        "influence": 3,
+        "secrets": 2
+    },
+    {
+        "name": "Apprenti Milo",
+        "group": "Cercle Magique",
+        "intrigues": [
+            "Rituel Interdit"
+        ],
+        "relations": [
+            {
+                "target": "Mage Valerius",
+                "type": "Eleve",
+                "strength": "Fort"
+            }
+        ],
+        "influence": 4,
+        "secrets": 5
+    },
+    {
+        "name": "Ermite Vieux-Jean",
+        "group": "Exilés",
+        "intrigues": [],
+        "relations": [],
+        "influence": 1,
+        "secrets": 9
+    },
+    {
+        "name": "Marchand Silas",
+        "group": "Bourgeoisie",
+        "intrigues": [
+            "Dette de Jeu"
+        ],
+        "relations": [
+            {
+                "target": "Baron Alaric",
+                "type": "Creancier",
+                "strength": "Moyen"
+            },
+            {
+                "target": "Capitaine Thorne",
+                "type": "Creancier",
+                "strength": "Faible"
+            }
+        ],
+        "influence": 5,
+        "secrets": 3
+    },
+    {
+        "name": "Vagabond Inconnu",
+        "group": "Exilés",
+        "intrigues": [],
+        "relations": [],
+        "influence": 0,
+        "secrets": 1
+    }
+]
